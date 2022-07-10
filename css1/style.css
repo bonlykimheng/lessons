@@ -1,0 +1,42 @@
+*{
+    margin: 0; padding: 0;
+  }
+  body{
+    padding: 100px;
+  }
+  /* nav{
+
+  } */
+  /* nav ul{
+
+  } */
+  nav ul li{
+    list-style-type: none;
+    float: left;
+    margin-right: 5px;
+  }
+  nav ul li a{
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 100px;
+    height: 40px;
+    display: block;
+    background-image: url(../img1/photo_2022-07-09_10-48-46.jpg);
+    font-family: sans-serif;
+
+  }
+  nav ul li a:hover{
+    background-position: 0 -40px;
+    color: yellow;
+  }
+  nav ul li :nth-child(2) a:hover{
+    background-position: 0 -40px;
+    color: yellow;
+  }
+  
